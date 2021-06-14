@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		F7569A72267557AA00D0E219 /* DictionaryAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = F7569A70267557AA00D0E219 /* DictionaryAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7569A802675586900D0E219 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7569A7F2675586900D0E219 /* User.swift */; };
+		F7569A822675597200D0E219 /* Term.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7569A812675597200D0E219 /* Term.swift */; };
+		F7569A8426755C7600D0E219 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7569A8326755C7600D0E219 /* Example.swift */; };
+		F7569A8626755CE700D0E219 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7569A8526755CE700D0E219 /* Note.swift */; };
+		F7569A8826755D8900D0E219 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7569A8726755D8900D0E219 /* Language.swift */; };
+		F7569A8A26755E3C00D0E219 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7569A8926755E3C00D0E219 /* Source.swift */; };
+		F7569A8C26755FAE00D0E219 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7569A8B26755FAD00D0E219 /* Tag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F7569A6D267557A900D0E219 /* DictionaryAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DictionaryAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7569A70267557AA00D0E219 /* DictionaryAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictionaryAPI.h; sourceTree = "<group>"; };
 		F7569A71267557AA00D0E219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7569A7F2675586900D0E219 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F7569A812675597200D0E219 /* Term.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Term.swift; sourceTree = "<group>"; };
+		F7569A8326755C7600D0E219 /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		F7569A8526755CE700D0E219 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		F7569A8726755D8900D0E219 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		F7569A8926755E3C00D0E219 /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		F7569A8B26755FAD00D0E219 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +60,25 @@
 		F7569A6F267557A900D0E219 /* DictionaryAPI */ = {
 			isa = PBXGroup;
 			children = (
+				F7569A7E2675585700D0E219 /* Models */,
 				F7569A70267557AA00D0E219 /* DictionaryAPI.h */,
 				F7569A71267557AA00D0E219 /* Info.plist */,
 			);
 			path = DictionaryAPI;
+			sourceTree = "<group>";
+		};
+		F7569A7E2675585700D0E219 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7569A7F2675586900D0E219 /* User.swift */,
+				F7569A812675597200D0E219 /* Term.swift */,
+				F7569A8326755C7600D0E219 /* Example.swift */,
+				F7569A8526755CE700D0E219 /* Note.swift */,
+				F7569A8726755D8900D0E219 /* Language.swift */,
+				F7569A8926755E3C00D0E219 /* Source.swift */,
+				F7569A8B26755FAD00D0E219 /* Tag.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +123,7 @@
 				TargetAttributes = {
 					F7569A6C267557A900D0E219 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -130,6 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7569A802675586900D0E219 /* User.swift in Sources */,
+				F7569A8826755D8900D0E219 /* Language.swift in Sources */,
+				F7569A8A26755E3C00D0E219 /* Source.swift in Sources */,
+				F7569A8C26755FAE00D0E219 /* Tag.swift in Sources */,
+				F7569A822675597200D0E219 /* Term.swift in Sources */,
+				F7569A8426755C7600D0E219 /* Example.swift in Sources */,
+				F7569A8626755CE700D0E219 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +298,7 @@
 		F7569A76267557AA00D0E219 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = S87GRA33NJ;
@@ -277,6 +315,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ParshakovAlexander.DictionaryAPI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +324,7 @@
 		F7569A77267557AA00D0E219 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = S87GRA33NJ;
