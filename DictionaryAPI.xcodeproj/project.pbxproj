@@ -70,8 +70,8 @@
 		F7569A7E2675585700D0E219 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F7569A7F2675586900D0E219 /* User.swift */,
 				F7569A812675597200D0E219 /* Term.swift */,
+				F7569A7F2675586900D0E219 /* User.swift */,
 				F7569A8326755C7600D0E219 /* Example.swift */,
 				F7569A8526755CE700D0E219 /* Note.swift */,
 				F7569A8726755D8900D0E219 /* Language.swift */,

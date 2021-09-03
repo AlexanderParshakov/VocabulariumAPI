@@ -18,7 +18,7 @@ public struct Source: Decodable {
     /// Опциональная картинка источника.
     public let image: Data?
     
-    /// Термины в данном языке у текущего пользователя.
+    /// Термины в данном источнике.
     public let terms: [Term]?
     
     enum CodingKeys: String, CodingKey {

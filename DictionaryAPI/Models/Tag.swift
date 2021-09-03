@@ -10,7 +10,7 @@ public struct Tag: Decodable {
     /// Уникальный идентификатор тега.
     public let id: Int
     
-    /// Именование тега.
+    /// Наименование тега.
     public let title: String
     
     enum CodingKeys: String, CodingKey {

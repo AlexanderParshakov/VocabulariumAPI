@@ -10,7 +10,7 @@ public struct Example: Decodable {
     /// Уникальный идентификатор примера.
     public let id: Int
     
-    /// Сам пример.
+    /// Тело примера.
     public let content: String
     
     enum CodingKeys: String, CodingKey {

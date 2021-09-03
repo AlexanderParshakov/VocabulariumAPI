@@ -19,6 +19,9 @@ public struct Term: Decodable {
     /// Перевод термина.
     public let translation: String
     
+    /// Дата добавления термина.
+    public let date: Date
+    
     /// Источник, из которого пользователь взял термин.
     public let source: Source
     
@@ -29,19 +32,20 @@ public struct Term: Decodable {
     public let notes: [Note]
     
     /// Теги для термина.
-    public let tags: String
+    public let tags: [Tag]
     
     /// Тип термина (его название в языке: существительное, прилагательное, фраза, etc).
     public let type: String
     
     /// Язык, к которому пользователь прикрепил этот термин.
-    public let language: String
+    public let language: Language
     
     enum CodingKeys: String, CodingKey {
         case id
         case content
         case meaning
         case translation
+        case date
         case source
         case examples
         case notes
@@ -50,3 +54,5 @@ public struct Term: Decodable {
         case language
     }
 }
+
+

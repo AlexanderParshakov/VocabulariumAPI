@@ -10,7 +10,7 @@ public struct Note: Decodable {
     /// Уникальный идентификатор заметки.
     public let id: Int
     
-    /// Сама заметка.
+    /// Тело заметки.
     public let content: String
     
     enum CodingKeys: String, CodingKey {
