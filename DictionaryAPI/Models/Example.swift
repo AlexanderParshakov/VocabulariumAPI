@@ -11,10 +11,16 @@ public struct Example: Decodable {
     public let id: Int
     
     /// Тело примера.
-    public let content: String
+    public let body: String
+    
+    public init(id: Int = 0,
+                body: String = "") {
+        self.id = id
+        self.body = body
+    }
     
     enum CodingKeys: String, CodingKey {
         case id
-        case content
+        case body
     }
 }

@@ -11,10 +11,10 @@ public struct Note: Decodable {
     public let id: Int
     
     /// Тело заметки.
-    public let content: String
+    public let body: String
     
     enum CodingKeys: String, CodingKey {
         case id
-        case content
+        case body
     }
 }
