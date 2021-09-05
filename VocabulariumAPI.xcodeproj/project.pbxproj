@@ -7,27 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F7569A72267557AA00D0E219 /* DictionaryAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = F7569A70267557AA00D0E219 /* DictionaryAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7569A802675586900D0E219 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7569A7F2675586900D0E219 /* User.swift */; };
-		F7569A822675597200D0E219 /* Term.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7569A812675597200D0E219 /* Term.swift */; };
-		F7569A8426755C7600D0E219 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7569A8326755C7600D0E219 /* Example.swift */; };
-		F7569A8626755CE700D0E219 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7569A8526755CE700D0E219 /* Note.swift */; };
-		F7569A8826755D8900D0E219 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7569A8726755D8900D0E219 /* Language.swift */; };
-		F7569A8A26755E3C00D0E219 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7569A8926755E3C00D0E219 /* Source.swift */; };
-		F7569A8C26755FAE00D0E219 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7569A8B26755FAD00D0E219 /* Tag.swift */; };
+		F7425EF826E50FA10088DBAF /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7425EEF26E50FA10088DBAF /* Source.swift */; };
+		F7425EF926E50FA10088DBAF /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7425EF026E50FA10088DBAF /* Language.swift */; };
+		F7425EFA26E50FA10088DBAF /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7425EF126E50FA10088DBAF /* Example.swift */; };
+		F7425EFB26E50FA10088DBAF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7425EF226E50FA10088DBAF /* User.swift */; };
+		F7425EFC26E50FA10088DBAF /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7425EF326E50FA10088DBAF /* Note.swift */; };
+		F7425EFD26E50FA10088DBAF /* Term.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7425EF426E50FA10088DBAF /* Term.swift */; };
+		F7425EFE26E50FA10088DBAF /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7425EF526E50FA10088DBAF /* Tag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7569A6D267557A900D0E219 /* DictionaryAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DictionaryAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7569A70267557AA00D0E219 /* DictionaryAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictionaryAPI.h; sourceTree = "<group>"; };
-		F7569A71267557AA00D0E219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7569A7F2675586900D0E219 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		F7569A812675597200D0E219 /* Term.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Term.swift; sourceTree = "<group>"; };
-		F7569A8326755C7600D0E219 /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
-		F7569A8526755CE700D0E219 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
-		F7569A8726755D8900D0E219 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
-		F7569A8926755E3C00D0E219 /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
-		F7569A8B26755FAD00D0E219 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		F7425EEF26E50FA10088DBAF /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		F7425EF026E50FA10088DBAF /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		F7425EF126E50FA10088DBAF /* Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		F7425EF226E50FA10088DBAF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F7425EF326E50FA10088DBAF /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		F7425EF426E50FA10088DBAF /* Term.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Term.swift; sourceTree = "<group>"; };
+		F7425EF526E50FA10088DBAF /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		F7569A6D267557A900D0E219 /* VocabulariumAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VocabulariumAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,10 +38,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7425EEE26E50FA10088DBAF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7425EEF26E50FA10088DBAF /* Source.swift */,
+				F7425EF026E50FA10088DBAF /* Language.swift */,
+				F7425EF126E50FA10088DBAF /* Example.swift */,
+				F7425EF226E50FA10088DBAF /* User.swift */,
+				F7425EF326E50FA10088DBAF /* Note.swift */,
+				F7425EF426E50FA10088DBAF /* Term.swift */,
+				F7425EF526E50FA10088DBAF /* Tag.swift */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F7425F0126E50FAD0088DBAF /* VocabulariumAPI */ = {
+			isa = PBXGroup;
+			children = (
+				F7425EEE26E50FA10088DBAF /* Models */,
+			);
+			name = VocabulariumAPI;
+			path = VocabulariumAPI/Models/VocabulariumAPI;
+			sourceTree = "<group>";
+		};
 		F7569A63267557A900D0E219 = {
 			isa = PBXGroup;
 			children = (
-				F7569A6F267557A900D0E219 /* DictionaryAPI */,
+				F7425F0126E50FAD0088DBAF /* VocabulariumAPI */,
 				F7569A6E267557A900D0E219 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,33 +73,9 @@
 		F7569A6E267557A900D0E219 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7569A6D267557A900D0E219 /* DictionaryAPI.framework */,
+				F7569A6D267557A900D0E219 /* VocabulariumAPI.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F7569A6F267557A900D0E219 /* DictionaryAPI */ = {
-			isa = PBXGroup;
-			children = (
-				F7569A7E2675585700D0E219 /* Models */,
-				F7569A70267557AA00D0E219 /* DictionaryAPI.h */,
-				F7569A71267557AA00D0E219 /* Info.plist */,
-			);
-			path = DictionaryAPI;
-			sourceTree = "<group>";
-		};
-		F7569A7E2675585700D0E219 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				F7569A812675597200D0E219 /* Term.swift */,
-				F7569A7F2675586900D0E219 /* User.swift */,
-				F7569A8326755C7600D0E219 /* Example.swift */,
-				F7569A8526755CE700D0E219 /* Note.swift */,
-				F7569A8726755D8900D0E219 /* Language.swift */,
-				F7569A8926755E3C00D0E219 /* Source.swift */,
-				F7569A8B26755FAD00D0E219 /* Tag.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,16 +85,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7569A72267557AA00D0E219 /* DictionaryAPI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F7569A6C267557A900D0E219 /* DictionaryAPI */ = {
+		F7569A6C267557A900D0E219 /* VocabulariumAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7569A75267557AA00D0E219 /* Build configuration list for PBXNativeTarget "DictionaryAPI" */;
+			buildConfigurationList = F7569A75267557AA00D0E219 /* Build configuration list for PBXNativeTarget "VocabulariumAPI" */;
 			buildPhases = (
 				F7569A68267557A900D0E219 /* Headers */,
 				F7569A69267557A900D0E219 /* Sources */,
@@ -108,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = DictionaryAPI;
+			name = VocabulariumAPI;
 			productName = DictionaryAPI;
-			productReference = F7569A6D267557A900D0E219 /* DictionaryAPI.framework */;
+			productReference = F7569A6D267557A900D0E219 /* VocabulariumAPI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F7569A67267557A900D0E219 /* Build configuration list for PBXProject "DictionaryAPI" */;
+			buildConfigurationList = F7569A67267557A900D0E219 /* Build configuration list for PBXProject "VocabulariumAPI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7569A6C267557A900D0E219 /* DictionaryAPI */,
+				F7569A6C267557A900D0E219 /* VocabulariumAPI */,
 			);
 		};
 /* End PBXProject section */
@@ -160,13 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7569A802675586900D0E219 /* User.swift in Sources */,
-				F7569A8826755D8900D0E219 /* Language.swift in Sources */,
-				F7569A8A26755E3C00D0E219 /* Source.swift in Sources */,
-				F7569A8C26755FAE00D0E219 /* Tag.swift in Sources */,
-				F7569A822675597200D0E219 /* Term.swift in Sources */,
-				F7569A8426755C7600D0E219 /* Example.swift in Sources */,
-				F7569A8626755CE700D0E219 /* Note.swift in Sources */,
+				F7425EFC26E50FA10088DBAF /* Note.swift in Sources */,
+				F7425EFB26E50FA10088DBAF /* User.swift in Sources */,
+				F7425EF826E50FA10088DBAF /* Source.swift in Sources */,
+				F7425EFE26E50FA10088DBAF /* Tag.swift in Sources */,
+				F7425EF926E50FA10088DBAF /* Language.swift in Sources */,
+				F7425EFA26E50FA10088DBAF /* Example.swift in Sources */,
+				F7425EFD26E50FA10088DBAF /* Term.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +301,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DictionaryAPI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ParshakovAlexander.DictionaryAPI;
+				PRODUCT_BUNDLE_IDENTIFIER = ParshakovAlexander.VocabulariumAPI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -331,14 +326,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DictionaryAPI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ParshakovAlexander.DictionaryAPI;
+				PRODUCT_BUNDLE_IDENTIFIER = ParshakovAlexander.VocabulariumAPI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -349,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7569A67267557A900D0E219 /* Build configuration list for PBXProject "DictionaryAPI" */ = {
+		F7569A67267557A900D0E219 /* Build configuration list for PBXProject "VocabulariumAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7569A73267557AA00D0E219 /* Debug */,
@@ -358,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7569A75267557AA00D0E219 /* Build configuration list for PBXNativeTarget "DictionaryAPI" */ = {
+		F7569A75267557AA00D0E219 /* Build configuration list for PBXNativeTarget "VocabulariumAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7569A76267557AA00D0E219 /* Debug */,
