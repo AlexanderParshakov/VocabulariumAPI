@@ -1,6 +1,6 @@
 //
 //  Language.swift
-//  DictionaryAPI
+//  VocabulariumAPI
 //
 //  Created by Parshakov Alexander on 6/13/21.
 //
